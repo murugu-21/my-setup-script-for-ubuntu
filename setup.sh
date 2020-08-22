@@ -11,13 +11,13 @@ sudo apt update
 sudo apt-fast install fish
 
 #set fish as default shell
-chsh -s /usr/local/bin/fish
+chsh -s /bin/fish
 
 #logout to change terminal
-su - murugu21
+su - murugu21 # add your own username in place of murugu-21
 
 #oh-my-fish pm for fish
 curl -L https://get.oh-my.fish | fish
 
 #bob-the-fish theme
-omf install bobthefish
+echo | omf install bobthefish
