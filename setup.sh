@@ -7,8 +7,8 @@ sudo apt-fast install git-all
 
 #fish shell
 sudo apt-add-repository ppa:fish-shell/release-3
-sudo apt-get update
-sudo apt-get install fish
+sudo apt update
+sudo apt-fast install fish
 
 #set fish as default shell
 chsh -s /usr/local/bin/fish
