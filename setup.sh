@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update && apt-fast upgrade -y
 #apt-fast quick install
 /bin/bash -c "$(curl -sL https://git.io/vokNn)"
 
